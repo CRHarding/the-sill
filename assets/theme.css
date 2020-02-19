@@ -82,3 +82,48 @@ a {
   margin-bottom: auto;
   width: 15%;
 }
+
+/* Select specific styles */
+.select {
+  width: 100%;
+  border: 1px solid lightgray;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.select-header {
+  margin: 25px 0px 5px 0px;
+}
+
+.select li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+
+.select li:hover:not(:nth-child(2)) {
+  background-color: lightgray;
+  opacity: .9;
+}
+
+.svg-wrapper {
+  position: absolute;
+  right: 5%;
+  top: 30px;
+  transition: transform 200ms ease-in-out;
+}
+
+display: none !important;
+}
+
+.select li img {
+max-height: 45px;
+object-fit: cover;
+}
+
+.select-active {
+transform: rotate(180deg) ;
+}
