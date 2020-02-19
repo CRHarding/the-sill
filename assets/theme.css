@@ -1,0 +1,52 @@
+/* Setting up global font families */
+@font-face {
+  font-family: Domaine-Medium;
+  src: url("./fonts/DomaineTextWeb-Medium.woff2");
+}
+
+@font-face {
+  font-family: Domaine-Regular;
+  src: url("./fonts/DomaineTextWeb-Regular.woff2");
+}
+
+p, a, h1, h2, h3, h4, h5, option, select {
+  font-family: Domaine-Regular;
+}
+
+/* Top Nav specific styles*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-wrapper {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 50px 10px 50px 10px;
+}
+
+.nav-wrapper div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-wrapper div .nav-item {
+  margin-right: 35px;
+  font-family: Domaine-Regular;
+  font-size: 25px;
+}
+
+.nav-wrapper .underline {
+  font-family: Domaine-Medium;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.underline {
+  border-bottom: 1px solid black;
+}
+
+.underline :first-child {
+  padding-right: 35px;
+}
