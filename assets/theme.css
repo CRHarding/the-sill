@@ -50,3 +50,35 @@ a {
 .underline :first-child {
   padding-right: 35px;
 }
+
+/* Main content specific styles*/
+
+.content {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.description-container {
+  width: 30%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container {
+  width: 50%;
+  object-fit: cover;
+}
+
+.image-container img {
+  width: 85%;
+}
+
+.rotate-right {
+  transform: rotate(90deg);
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 15%;
+}
